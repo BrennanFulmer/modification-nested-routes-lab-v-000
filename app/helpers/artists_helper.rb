@@ -7,7 +7,7 @@ module ArtistsHelper
   
   def artist_select(song, artist)
 
-binding.pry
+# binding.pry
  
     if artist
       hidden_field_tag "song[artist_id]", artist.id
